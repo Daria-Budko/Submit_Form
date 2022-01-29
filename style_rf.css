@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+    padding: 0px 20px;
+    background: #E5E5E5;
+}
+.container{
+    max-width: 800px;
+    width: 100%;
+    background:#FFFFFF;
+    margin: 20px auto;
+    padding: 30px;
+    
+}
+.title{
+    color:#10234D;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.title span{
+ color: #13A8E6;   
+}
+.container .form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form .user_ditales{
+    margin-bottom: 15px;
+    width: calc(100%/ 2 - 10px);
+    
+}
+.user_ditales input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #E5E5E5;
+    height: 32px;
+    padding-left: 8px;
+    font-size: 12px;
+    border-radius: 3px; 
+}
+.user_ditales .company_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+
+.user_ditales .company_select select{
+    appearance: none;
+    border: 1px solid #E5E5E5;
+    border-style: solid;
+    width: 100%;
+    height: 32px;
+    padding-left: 8px;
+    font-size: 12px;
+    border-radius: 3px; 
+}
+
+
+.container_add{
+    max-width: 800px;
+    width: 100%;
+    background:#EFF7FA;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    margin: 10px auto;
+    padding: 20px 20px;
+}
+.add_design{
+    position: relative;
+}
+.container_add .add_design::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 130px;
+    bottom: 0;
+    height: 1px;
+    width: 688px;
+    background:#E5E5E5; 
+    
+}
+.sub_title{
+    font-size: 13px;
+    color: #8C979D;
+    margin: 14px auto;
+    
+}
+.form_2{
+    
+    display: flex;
+    flex-flow: column wrap;
+    height: 20%;
+    margin-bottom: 10px;
+    
+    
+}
+.form_2 .add_ditales{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 10px);
+    
+}
+
+.add_ditales input,textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #E5E5E5;
+    height: 32px;
+    padding-left: 8px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.add_ditales textarea,placeholder{
+    padding: 10px 8px;
+}
+.add_ditales textarea{
+    resize: none;
+    height: 79px;
+}
+
+
+
+.url{
+    position: relative;
+    top: -35px;
+}
+
+.form_3 .url_add{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+   
+}
+.url_add{
+    position: relative;
+    top: 0;
+    
+}
+.input_add{
+    width: 88%;
+    outline: none;
+    border: 1px solid #E5E5E5;
+    height: 32px;
+    padding-left: 8px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.url_add .button_add{
+    outline: none;
+    border: 1px solid #13A8E6;
+    background: #13A8E6;
+    height: 32px;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+    align-content: center;
+}
+.button_2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+}
+.button_2 input{
+    align-content: center;
+    width: 35%;
+    outline: none;
+    border: 1px solid #13A8E6;
+    background: #13A8E6;
+    height: 32px;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+}
+    
+.container_sub{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 100%;
+    margin-top: 20px;
+    
+    
+}
+.check{
+    margin-bottom: 25px;
+    width: 50%;
+}
+.check span{
+    font-size: 10px;
+    color: #434343; 
+}
+.check>p{
+    margin: 10px 0;
+    font-size: 10px;
+    color: #434343;
+}
+.check>p>a{
+    color: #13A8E6;
+}
+.submit {
+    align-content: center;
+    width: 15%;
+}
+.submit input{
+    text-transform: uppercase;
+    align-content: center;
+    width: 100%;
+    outline: none;
+    border: 1px solid #0FC300;
+    background: #0FC300;
+    height: 32px;
+    padding: 8px;
+    color: white;
+    font-size: 12px;
+    border-radius: 50px;
+}
+.container_sub>p{
+    margin: 10px 0;
+    font-size: 10px;
+    color: #434343;
+}
+.container_sub>p>a{
+    color: #13A8E6;
+}
